@@ -1,8 +1,8 @@
-import logo from "./logo.svg";
 import "./App.css";
+import TodoTemplate from "./components/TodoTemplate";
 
 function App() {
-  return <div className="App">React Skill UP!</div>;
+  return <TodoTemplate>Todo App</TodoTemplate>;
 }
 
 export default App;
